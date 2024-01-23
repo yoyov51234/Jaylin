@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>header</title>
+    <style>
+      /* .body1 {
+        width: 1440px;
+        height: 80px;
+        
+      } */
+      .w {
+        width: 1440px;
+        height: 80px;
+        margin: 0 auto;
+
+        padding: 18px 141px 18px 140px;
+        background-color: violet;
+        /* backgrou
+        nd-color: yellow; */
+      }
+
+      /* .w2{
+        width: ;
+      } */
+      .header {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: end; */
+        /* align-items: center; */
+        /* background-color: yellow; */
+        /* vertical-align: middle; */
+      }
+
+      .left-sction {
+        background-color: pink;
+        flex: 2;
+
+        display: flex;
+        flex-direction: row;
+        /* vertical-align: middle; */
+        align-items: center;
+      }
+
+      .right-section {
+        background-color: blue;
+        flex: 1;
+      }
+
+      .logo {
+        width: 140px;
+        height: 44px;
+        background-image: url(/images/logo.png);
+      }
+
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .header-link li {
+        /* display: flex;
+        flex-direction: row; */
+
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w">
+      <div class="header">
+        <div class="left-sction">
+          <div class="logo"></div>
+          <ul class="header-link">
+            <li><a href="">首页</a></li>
+            <li><a href="">视频专区</a></li>
+            <li><a href="">文章专区</a></li>
+          </ul>
+        </div>
+        <!-- <div class="middle-sction"></div> -->
+
+        <div class="right-section">right</div>
+      </div>
+    </div>
+  </body>
+</html>

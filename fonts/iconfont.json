@@ -1,0 +1,79 @@
+{
+  "id": "4413645",
+  "name": "jaylin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6129079",
+      "name": "34下一页、后一页",
+      "font_class": "xiayiyehouyiye",
+      "unicode": "e769",
+      "unicode_decimal": 59241
+    },
+    {
+      "icon_id": "38970952",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "38970953",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "14278165",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "1870132",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "1638516",
+      "name": "搜索",
+      "font_class": "sousuo1",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "10268978",
+      "name": "搜索",
+      "font_class": "sousuo2",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "5643508",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "689204",
+      "name": "编辑 铅笔 写 输入",
+      "font_class": "bianjiqianbixieshuru",
+      "unicode": "e7c8",
+      "unicode_decimal": 59336
+    },
+    {
+      "icon_id": "38866539",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "10192",
+      "unicode_decimal": 65938
+    }
+  ]
+}

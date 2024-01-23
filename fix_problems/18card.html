@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="//at.alicdn.com/t/c/font_4413645_l0iu9vts3nf.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #f5f6fd;
+      }
+      .goods-chart {
+        width: 236px;
+        height: 142px;
+        background-color: pink;
+        margin-right: 16px;
+      }
+
+      .goods-title {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #0079fa; */
+        width: 544px;
+        height: 142px;
+      }
+
+      .goods {
+        width: 816px;
+        height: 174px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        padding: 16px;
+        background: #ffffff;
+        border-radius: 8px;
+      }
+
+      .goods .firstline .firstline-left p {
+        font-size: 18px;
+        font-family: SourceHanSansSC, SourceHanSansSC;
+        font-weight: bold;
+        color: #15152d;
+        line-height: 27px;
+        width: 380px;
+        align-items: center;
+        display: inline-block;
+      }
+
+      .goods-title .firstline div span {
+        display: inline-block;
+        padding: 0px 5px 1px 5px;
+        color: #ffffff;
+        background-color: #0079fa;
+        border-radius: 2px;
+        font-size: 12px;
+        margin-right: 5px;
+        height: 18px;
+        line-height: 18px;
+        /* width: 32px; */
+      }
+      .goods-title .firstline i {
+        /* float: right; */
+        font-size: 14px;
+        font-family: SourceHanSansSC, SourceHanSansSC;
+        font-weight: 400;
+        color: #a1a1ab;
+        line-height: 20px;
+        /* justify-self: right; */
+        text-align: right;
+      }
+
+      .goods-title .firstline i::before {
+        content: "\e61a";
+        font-family: "iconfont";
+        margin-right: 7px;
+      }
+
+      i {
+        font-style: normal;
+      }
+
+      .firstline {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 11px;
+      }
+      .firstline div {
+        flex: 1;
+      }
+
+      /* .firstline-left {
+        display: inline-block;
+      } */
+
+      .goods-title a {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: SourceHanSansSC, SourceHanSansSC;
+        font-weight: 400;
+        color: #a1a1ab;
+        line-height: 18px;
+        height: 24px;
+        padding: 3px 8px 3px 8px;
+        background-color: #e5e8ed;
+        /* border: 1px solid red; */
+        border-radius: 2px;
+      }
+
+      .goods-title-tag {
+        /* margin-bottom: 65px; */
+      }
+
+      .goods-user-icon {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        border: 1px solid gray;
+        border-radius: 12px;
+        vertical-align: top;
+        /* margin-right: 8px; */
+      }
+
+      .goods-title-lastrow {
+        /* justify-content: center; */
+        line-height: 24px;
+        height: 24px;
+        /* text-align: center; */
+        vertical-align: top;
+        font-size: 14px;
+        position: absolute;
+        bottom: 0px;
+      }
+
+      .goods-user-name {
+        line-height: 24px;
+        margin: 2px 8px 2px 8px;
+        font-size: 14px;
+        font-family: SourceHanSansSC, SourceHanSansSC;
+        font-weight: 400;
+        color: #15152d;
+        line-height: 20px;
+      }
+
+      .goods-user-division {
+        width: 1px;
+        height: 13px;
+        border: 1px solid #e5e8ed;
+        margin-right: 9px;
+      }
+
+      .goods-user-views::before,
+      .goods-user-comments::before {
+        content: "\e617";
+        font-family: "iconfont";
+        margin-right: 7px;
+        color: #bfc2cc;
+      }
+
+      .goods-user-comments::before {
+        content: "\e661";
+        margin-left: 8px;
+      }
+
+      .goods-user-views,
+      .goods-user-comments {
+        font-size: 14px;
+        font-family: SourceHanSansSC, SourceHanSansSC;
+        font-weight: 400;
+        color: #a1a1ab;
+        line-height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="goods">
+      <div class="goods-chart">1</div>
+      <div class="goods-title">
+        <div class="firstline">
+          <div class="firstline-left">
+            <span>视频</span>
+            <p>全部免费!阿里巴巴设计UCAN2020普惠公开课</p>
+          </div>
+
+          <i>07-12</i>
+        </div>
+
+        <div class="goods-title-tag"><a href=""> Java新手必学</a></div>
+        <div class="goods-title-lastrow">
+          <span class="goods-user-icon"></span>
+          <span class="goods-user-name">黎明的前线</span>
+          <span class="goods-user-division"></span>
+          <span class="goods-user-views">9999+</span>
+          <span class="goods-user-comments">857</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

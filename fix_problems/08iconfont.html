@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @font-face {
+        font-family: "iconfont";
+        src: url("/fonts/iconfont.woff2?t=1705586076722") format("woff2"),
+          url("/fonts/iconfont.woff?t=1705586076722") format("woff"),
+          url("/fonts/iconfont.ttf?t=1705586076722") format("truetype");
+      }
+
+      .iconfont {
+        font-family: "iconfont" !important;
+        font-size: 16px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      .div1 {
+        width: 200px;
+        height: 30px;
+        border: 1px solid red;
+        position: relative;
+      }
+
+      .div1::after {
+        font-family: "iconfont";
+        content: "&#xe69e;";
+        /* content: "/xe69e"; */
+        position: absolute;
+        right: 5px;
+        top: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="iconfont">&#xe69e;</span>
+    <div class="div1"></div>
+  </body>
+</html>

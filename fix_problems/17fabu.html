@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="//at.alicdn.com/t/c/font_4413645_a0do4ftq68f.css"
+    />
+
+    <style>
+      .box-items {
+        display: grid;
+        grid-template-columns: 1fr 324px;
+        /* row-gap: 20px; */
+        columns: 20px;
+        column-gap: 20px;
+      }
+
+      .starts {
+        width: 1159px;
+        background-color: yellow;
+        margin: 0 auto;
+        background-color: #f5f6fd;
+      }
+
+      .box-items-left {
+        display: grid;
+        grid-template-rows: 63px repeat(4, 174px);
+        /* background-color: pink; */
+      }
+
+      .box-items-right {
+        display: grid;
+        grid-template-rows: 63px 189px repeat(4, 55px);
+        /* background-color: lightblue; */
+      }
+
+      .box-items-left-row1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .box-items-left-leftnav span a {
+        font-size: 14px;
+        font-family: SourceHanSansSC, SourceHanSansSC;
+        font-weight: 400;
+        color: #0079fa;
+        line-height: 20px;
+        text-decoration: none;
+      }
+      .box-items-left-leftnav span:nth-of-type(3) a {
+        color: #bfc2cc;
+      }
+      .box-items-left-leftnav span:nth-of-type(1) {
+        font-size: 18px;
+        font-family: SourceHanSansSC, SourceHanSansSC;
+        font-weight: bold;
+        color: #15152d;
+        line-height: 27px;
+      }
+
+      .box-items-left-rightnav::after {
+        content: "\e604";
+        font-family: "iconfont";
+        font-size: 12px;
+        color: #d0d0d5;
+      }
+      .box-items-left-rightnav::before {
+        content: "\e603";
+        font-family: "iconfont";
+        font-size: 12px;
+        color: #a1a1ab;
+        margin-right: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="starts">
+      <div class="box-items">
+        <div class="box-items-left">
+          <div class="box-items-left-row1">
+            <div class="box-items-left-leftnav">
+              <span>最新发布</span>
+              <div style="display: inline-block">|</div>
+              <span><a href="">视频</a></span>
+              <span><a href="">文章</a> </span>
+            </div>
+
+            <div class="box-items-left-rightnav"></div>
+          </div>
+
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+        </div>
+        <div class="box-items-right">
+          <div class="box-items-left-row1">
+            <div class="box-items-left-leftnav">
+              <span>阅读排行</span>
+              <div style="display: inline-block">|</div>
+              <span><a href="">视频</a></span>
+              <span><a href="">文章</a> </span>
+            </div>
+
+            <div class="box-items-left-rightnav"></div>
+          </div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

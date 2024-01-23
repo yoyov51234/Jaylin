@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/fonts/iconfont.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .tag-box {
+        height: 180px;
+        width: 398px;
+        background: #fafafd;
+        border-radius: 8px;
+        margin: 0 auto;
+        padding-top: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .tag-box p {
+        border-bottom: 1px solid #e5e8ed;
+        padding-bottom: 12px;
+        font-size: 16px;
+        font-family: SourceHanSansSC, SourceHanSansSC;
+        font-weight: bold;
+        color: #15152d;
+        line-height: 24px;
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        text-decoration: none;
+      }
+
+      .tag-links li {
+        height: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 11px;
+      }
+      .tag-links li a {
+        opacity: 1;
+        margin-top: 8px;
+        border-radius: 4px;
+        /* opacity: 0.04; */
+        height: 24px;
+        background: #f0f5fd;
+        border-radius: 4px;
+        color: #0079fa;
+        padding: 2px 8px 2px 8px;
+        font-size: 14px;
+        /* opacity: 100%; */
+      }
+
+      .chat-group {
+        display: flex;
+        flex-direction: row;
+        /* padding-left: 16px;
+        padding-right: 16px; */
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        border-bottom: 1px solid #e5e8ed;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .chat-group span:nth-of-type(1) {
+        flex: 1;
+        font-size: 16px;
+        font-family: SourceHanSansSC, SourceHanSansSC;
+        font-weight: bold;
+        color: #15152d;
+        line-height: 24px;
+      }
+      .chat-group span:nth-of-type(2) {
+        font-size: 14px;
+        font-family: SourceHanSansSC, SourceHanSansSC;
+        font-weight: 400;
+        color: #0079fa;
+        line-height: 20px;
+      }
+
+      .chat-group span:nth-of-type(3) {
+        font-size: 14px;
+        font-family: SourceHanSansSC, SourceHanSansSC;
+        font-weight: 400;
+        color: #bfc2cc;
+        line-height: 20px;
+      }
+      .chat-group div:nth-of-type(1) {
+        width: 1px;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 13px;
+        border: 1px solid #e5e8ed;
+        /* align-items: center; */
+      }
+
+      .tag-links li span::before {
+        content: "\e607";
+        font-family: "iconfont";
+        margin-right: 6px;
+        color: #0091ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tag-box">
+      <div class="chat-group">
+        <span> 交流群</span>
+        <span><a href="">QQ群</a></span>
+        <div></div>
+        <span>微信</span>
+      </div>
+
+      <div class="tag-links">
+        <ul>
+          <li>
+            <span>开发端群</span>
+            <a href="">加入</a>
+          </li>
+          <li>
+            <span class="communcation-icon">开发端群</span>
+            <a href="">加入</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

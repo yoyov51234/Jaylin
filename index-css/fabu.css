@@ -1,0 +1,103 @@
+.box-items {
+  display: grid;
+  grid-template-columns: 1fr 324px;
+  /* row-gap: 20px; */
+  columns: 20px;
+  column-gap: 20px;
+}
+
+.starts {
+  width: 1159px;
+  background-color: yellow;
+  margin: 0 auto;
+  background-color: #f5f6fd;
+}
+
+.box-starts {
+  background-color: #f5f6fd;
+}
+
+.box-items-left {
+  display: grid;
+  grid-template-rows: 63px;
+  /* background-color: pink; */
+}
+
+.reads {
+  padding: 0px 16px 25px 16px;
+  background-color: #ffffff;
+}
+
+.box-items-right {
+  /* display: grid;
+  grid-template-rows: 63px 207px repeat(4, 94px);
+  background-color: lightblue; */
+  /* padding: 0px 16px 25px 16px; */
+}
+
+/* .box-items-right > *:nth-of-type(n + 1) {
+  background-color: #ffffff;
+} */
+
+.box-items-left-row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-items-right-row1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.box-items-left-leftnav span a,
+.box-items-right-rightnav span a {
+  font-size: 14px;
+  font-family: SourceHanSansSC, SourceHanSansSC;
+  font-weight: 400;
+  color: #0079fa;
+  line-height: 20px;
+  text-decoration: none;
+}
+.box-items-left-leftnav
+  span:nth-of-type(3)
+  a
+  .box-items-left-rightnav
+  span:nth-of-type(3)
+  a {
+  color: #bfc2cc;
+}
+.box-items-left-leftnav span:nth-of-type(1),
+.box-items-right-rightnav span:nth-of-type(1) {
+  font-size: 18px;
+  font-family: SourceHanSansSC, SourceHanSansSC;
+  font-weight: bold;
+  color: #15152d;
+  line-height: 27px;
+}
+
+.box-items-left-rightnav::after {
+  content: "\e604";
+  font-family: "iconfont";
+  font-size: 12px;
+  color: #d0d0d5;
+}
+.box-items-left-rightnav::before {
+  content: "\e603";
+  font-family: "iconfont";
+  font-size: 12px;
+  color: #a1a1ab;
+  margin-right: 8px;
+}
+
+.box-items-right-rightnav-title {
+  font-size: 18px;
+  font-family: SourceHanSansSC, SourceHanSansSC;
+  font-weight: bold;
+  color: #15152d;
+  line-height: 27px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

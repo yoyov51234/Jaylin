@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        display: flex;
+        direction: rtl;
+      }
+
+      .box > * {
+        float: right;
+      }
+      .searchbox {
+        /* float: right; */
+        /* display: inline-block; */
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="box"
+      style="
+        width: 1440px;
+        height: 80px;
+        background-color: aqua;
+        margin: 0 auto;
+      "
+    >
+      <div class="searchbox">
+        <input type="text" placeholder="搜索" style="height: 40px" />
+        <div class="edit-icon">我是编辑图标</div>
+        <div class="edit-font">我是编辑字体</div>
+        <div class="usericon">我是用户图标</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -55,6 +55,7 @@ i {
 }
 
 .top-inner-nav ul li {
+  /* 这里需要解决问题#3， 没有和 logo 对齐 */
 }
 
 .top-inner-nav ul li a {

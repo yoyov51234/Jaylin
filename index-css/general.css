@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: SourceHanSansSC, SourceHanSansSC;
+  border: none;
+  outline: none;
+}
+.box,
+.box-starts {
+  width: 1440px;
+  margin: 0 auto;
+  /* background-color: yellow; */
+  background: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(219, 221, 225, 0.3);
+}
+
+.box-starts {
+  background-color: #f5f6fd;
+}
+
+.box2 {
+  width: 1159px;
+  margin: 0 auto;
+  /* background-color: pink; */
+}
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+
+  font-weight: bold;
+  color: #21212d;
+  line-height: 24px;
+}
+li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+input {
+  outline: none;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/fonts/iconfont.css" />
+    <style>
+      .div1 {
+        width: 200px;
+        height: 30px;
+        border: 1px solid red;
+        position: relative;
+      }
+
+      .div1::after {
+        font-family: "iconfont";
+        content: "\e632";
+        /* content: "/xe69e"; */
+        position: absolute;
+        right: 5px;
+        top: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="iconfont"></span>
+    <div class="div1"></div>
+  </body>
+</html>
