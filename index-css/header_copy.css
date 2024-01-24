@@ -55,6 +55,7 @@
   border-radius: 20px;
   position: relative;
   margin-left: 16px;
+  cursor: pointer;
 }
 
 .yonghu-font {
